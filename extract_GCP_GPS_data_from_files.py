@@ -33,5 +33,7 @@ try:
                 print '$GPGGA lines: ' , i
     print '******' , 'New file is located at' , myOutFile , '*******'
 except Exception, e :
-    #print '*** Error*** Unable to process the GPS log file. Please check that the file specified is a valid gps log. '
+    print '*** Error*** Unable to process the GPS log file. Please check that the file specified is a valid gps log. '
     print '*** Error Code:',e
+
+#Program should exit without any errors!
