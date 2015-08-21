@@ -1,5 +1,7 @@
 __author__ = 'singhdj2'
 
+#program to read raw GPS text files and extract GPS position information from GPGGA strings.
+
 import os
 
 #myDir = "/Users/singhdj2/Desktop"
